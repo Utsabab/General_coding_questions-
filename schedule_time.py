@@ -1,5 +1,5 @@
 #This was a Dropbox practice question coded in Dropbox Info session at Howard University.
-'''The input is a list of tuples containing start and the end time for a meeting. We need to figure out the minimum possible rooms required for all the meeting'''
+"""The input is a list of tuples containing start and the end time for a meeting. We need to figure out the minimum possible rooms required for all the meeting"""
 
 
 inp = [(1,7), (4,6), (2,5), (3, 8), (9,18)]
@@ -21,4 +21,8 @@ for (i, t) in st_inp:
     c -= 1
   
   maxVal = max(c, maxVal)
+
+print maxVal
+
+  
 
